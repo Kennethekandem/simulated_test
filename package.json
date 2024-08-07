@@ -1,4 +1,63 @@
 {
   "name": "simulate_test",
-  "packageManager": "yarn@4.2.2"
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/core": "7.10.5",
+    "@babel/plugin-proposal-class-properties": "7.10.4",
+    "@babel/preset-env": "7.10.4",
+    "@babel/preset-react": "7.10.4",
+    "@babel/runtime": "7.10.5",
+    "axios": "0.19.2",
+    "classnames": "2.2.6",
+    "cross-fetch": "3.0.5",
+    "escape-html": "1.0.3",
+    "immer": "7.0.5",
+    "marked": "1.1.1",
+    "mobx": "5.15.4",
+    "mobx-react": "6.2.2",
+    "prop-types": "15.7.2",
+    "react-cookie": "4.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "^16.13.1",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "^5.0.1",
+    "rebass": "4.0.7",
+    "recompose": "0.30.0",
+    "redux": "4.0.5",
+    "reselect": "4.0.0",
+    "styled-components": "5.1.1",
+    "styled-system": "5.1.5",
+    "use-immer": "0.4.0",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "enzyme": "3.9.0",
+    "sass": "1.20.1",
+    "sinon": "7.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
